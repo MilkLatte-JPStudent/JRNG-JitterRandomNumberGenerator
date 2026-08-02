@@ -52,7 +52,7 @@ Powerful enough to outperform QRNGs! 100% software-driven, it delivers near-perf
 ## Important Notes
 Please run this on a cheap, low-spec PC without cooling it as much as possible. Cooling narrows the jitter, making it impossible to capture entropy.
 
-If you’re thinking, “I only have high-end hardware! Is the 100% software-driven claim a lie?!!”, don’t worry. Just throw it into a virtual environment with crappy specs, like a Docker container, and you’re good to go!!
+If you're thinking, “I only have high-end hardware! Is this ‘100% software-driven’ claim a lie?!”—don't worry. Just throw your Docker containers and other configurations into a virtual environment with crappy specs, and you're good to go!!
 
 Results from running 75 stages at 10,000 bits: [Calculation time: 1–3 minutes (probably less than 3 minutes) | Test environment: Docker with 0.1 CPU cores and 128 MB RAM | 1st run - 49.99999999999862:49.99999999999862 | 2nd run - 49.34999999999875:50.64999999999849]
 
