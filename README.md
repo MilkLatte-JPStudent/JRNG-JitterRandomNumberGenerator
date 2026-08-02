@@ -67,3 +67,5 @@ The file to download is the Python file at the top of this page! That’s the ma
 ### 画像資料(portfolio)
 ***
 
+![JRNG 17万サンプル検証グラフ画像](benchmark/chert_benchmark.-1000~1000.png)
+![JRNG 17万サンプル検証グラフデータ数値](benchmark/-1000~1000.loopJRNG.log.json)
