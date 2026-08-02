@@ -61,3 +61,9 @@ Results from running 75 stages at 10,000 bits: [Calculation time: 1–3 minutes 
 The file to download is the Python file at the top of this page! That’s the main program!
 
 [If you like it, I’d be happy if you’d buy me a coffee!](https://ko-fi.com/milklattehastra5020)
+
+
+***
+### 画像資料(portfolio)
+***
+
