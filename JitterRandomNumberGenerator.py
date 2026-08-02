@@ -4,7 +4,7 @@ import time
 
 def get_physical_jitter_seed(index: int) -> str:
     # 0.001〜0.003秒程度の微小な物理遅延（Jitter）を挿入してOSのジッターを取り込む
-    time.sleep(0.00001 * (1 + (index % 3)))
+    time.sleep(0.001 * (1 + (index % 3)))
 
     now_ns = str(time.time_ns())
     date_str = time.strftime("%Y%m%d%H%M%S")  
