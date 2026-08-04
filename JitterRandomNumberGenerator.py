@@ -62,8 +62,9 @@ def generate_chaos_number(min_val: int, max_val: int, layers: int = 5) -> int:
     big_number = int(top_chaos_hash, 16)
 
     # 指定された最大値・最小値の範囲に収める
+    MAX_SHA256_VAL = 1 << 256
     range_size = (max_val - min_val) + 1
-    result_number = min_val + (big_number % range_size)
+    result_number = min_val + ((big_number * range_size) // MAX_SHA256_VAL)
 
     return result_number
 
