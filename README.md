@@ -75,3 +75,62 @@ The file to download is the Python file at the top of this page! That’s the ma
 [JRNG 135.1万サンプル検証グラフデータ数値](benchmark/-1000~1000.loopJRNG.log.1351610data.csv)
 ![ホワイトノイズ証明画像](benchmark/data_verification.png)
 [ホワイトノイズ証明](benchmark/data_verification.png)
+
+entコマンドの結果:
+Entropy = 7.999999 bits per byte.
+
+Optimum compression would reduce the size
+of this 128286720 byte file by 0 percent.
+
+Chi square distribution for 128286720 samples is 219.69, and randomly
+would exceed this value 94.66 percent of the times.
+
+Arithmetic mean value of data bytes is 127.4921 (127.5 = random).
+Monte Carlo value for Pi is 3.141911556 (error 0.01 percent).
+Serial correlation coefficient is 0.000177 (totally uncorrelated = 0.0).
+
+PractRand結果:
+RNG_test using PractRand version 0.93
+RNG = RNG_stdin, seed = 0x1a6b9fa8
+test set = normal, folding = standard(unknown format)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 2 megabytes (2^21 bytes), time= 14.7 seconds
+  no anomalies in 88 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 4 megabytes (2^22 bytes), time= 29.6 seconds
+  no anomalies in 99 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 8 megabytes (2^23 bytes), time= 60.3 seconds
+  no anomalies in 107 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 16 megabytes (2^24 bytes), time= 123 seconds
+  no anomalies in 119 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 32 megabytes (2^25 bytes), time= 262 seconds
+  no anomalies in 130 test result(s)
+
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 64 megabytes (2^26 bytes), time= 540 seconds
+  no anomalies in 139 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 128 megabytes (2^27 bytes), time= 1106 seconds
+  no anomalies in 151 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 256 megabytes (2^28 bytes), time= 2434 seconds
+  no anomalies in 162 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 512 megabytes (2^29 bytes), time= 5147 seconds
+  no anomalies in 171 test result(s)
+
+rng=RNG_stdin, seed=0x1a6b9fa8
+length= 1 gigabyte (2^30 bytes), time= 10525 seconds
+  no anomalies in 183 test result(s)
