@@ -89,6 +89,18 @@ Arithmetic mean value of data bytes is 127.4921 (127.5 = random).
 Monte Carlo value for Pi is 3.141911556 (error 0.01 percent).
 Serial correlation coefficient is 0.000177 (totally uncorrelated = 0.0).
 
+
+latest(8/8 18:21)
+Entropy = 8.000000 bits per byte.
+
+Optimum compression would reduce the size
+of this 6712885248 byte file by 0 percent.
+
+Chi square distribution for 6712885248 samples is 268.64, and randomly
+would exceed this value 26.67 percent of the times.
+
+
+
 PractRand結果:
 RNG_test using PractRand version 0.93
 RNG = RNG_stdin, seed = 0x1a6b9fa8
@@ -134,3 +146,13 @@ length= 512 megabytes (2^29 bytes), time= 5147 seconds
 rng=RNG_stdin, seed=0x1a6b9fa8
 length= 1 gigabyte (2^30 bytes), time= 10525 seconds
   no anomalies in 183 test result(s)
+
+
+latest(8/8 18/21)
+rng=RNG_stdin, seed=0x2075cef6
+length= 4 gigabytes (2^32 bytes), time= 438 seconds
+  no anomalies in 203 test result(s)
+
+rng=RNG_stdin, seed=0x2075cef6
+length= 8 gigabytes (2^33 bytes), time= 879 seconds
+  no anomalies in 215 test result(s)
