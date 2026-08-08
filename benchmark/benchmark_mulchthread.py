@@ -4,7 +4,7 @@ import threading
 import struct
 
 # --- 設定パラメータ ---
-TARGET_FILE = "/Users/apple/Downloads/jrng_rdm/JitterRandomNumberGenerator_kensyou2.py"  # 実行する特定のPythonファイル名
+TARGET_FILE = "JitterRandomNumberGenerator_kensyou2.py"  # 実行する特定のPythonファイル名
 NUM_WORKERS = 116                        # 同時実行するプロセス数
 # PractRandに一気に流すバッファサイズ（例: 64MB = 64 * 1024 * 1024 バイト）
 CHUNK_SIZE = 16 * 1024
